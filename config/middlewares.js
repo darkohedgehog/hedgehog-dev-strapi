@@ -11,6 +11,7 @@ module.exports = [
         'http://localhost:3000',       // Lokalno okruženje (Next.js aplikacija)
         'https://www.hedgehogwebdev.com', // Produkcioni domen
         'https://hedgehogwebdev.com',
+        'http://localhost:4000',
       ],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
